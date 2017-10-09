@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button android:id="@+id/ej1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ej1"/>
+    <Button android:id="@+id/ej2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJ2"/>
+    <Button android:id="@+id/ej3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJ3"/>
+    <Button android:id="@+id/ej4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJ4"/>
+    <Button android:id="@+id/ej5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJ5"/>
+    <Button android:id="@+id/ej6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJ6"/>
+
+</LinearLayout>
