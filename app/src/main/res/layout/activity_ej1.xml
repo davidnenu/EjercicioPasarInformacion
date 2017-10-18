@@ -35,6 +35,7 @@
         android:onClick="verificar"/>
 
     <TextView
+        android:id="@+id/condiciones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¿Aceptas condiciones?" />
@@ -43,7 +44,8 @@
         android:id="@+id/volver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableBottom="@mipmap/ic_launcher" />
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:onClick="volver"/>
 
 
     >

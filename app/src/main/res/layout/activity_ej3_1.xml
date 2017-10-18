@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ejercicio2_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/suma"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SUMA"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/suma1"
+        android:layout_centerHorizontal="true" />
+<EditText
+    android:id="@+id/sumaigual"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:layout_centerVertical="true"
+    android:layout_alignBaseline="@+id/igual"
+    android:layout_alignBottom="@+id/igual"
+    android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_centerVertical="true"
+        android:layout_alignBaseline="@+id/suma2"
+        android:layout_alignBottom="@+id/suma2"
+        android:layout_toStartOf="@+id/suma2"
+        android:layout_marginEnd="16dp" />
+
+    <EditText
+        android:id="@+id/suma2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+
+        android:layout_alignBaseline="@+id/igual"
+        android:layout_alignBottom="@+id/igual"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/igual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"
+
+        android:layout_toStartOf="@+id/sumaigual" />
+    <EditText
+        android:id="@+id/suma1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:layout_alignBaseline="@+id/sumaigual"
+        android:layout_alignBottom="@+id/sumaigual"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/sumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:onClick="sumar"
+        android:layout_below="@+id/suma2"
+        android:layout_alignStart="@+id/suma2"
+        android:layout_marginTop="28dp" />
+    <TextView
+        android:id="@+id/correctas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CORRECTAS: 0"
+        android:layout_below="@+id/sumar"
+        android:layout_alignStart="@+id/sumar"
+        android:layout_marginTop="25dp" />
+    <TextView
+        android:id="@+id/incorrectas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INCORRECTAS: 0"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/correctas"
+        android:layout_alignStart="@+id/correctas" />
+
+
+</RelativeLayout>

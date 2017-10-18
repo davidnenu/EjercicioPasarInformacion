@@ -30,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        /*ej2=(Button)findViewById(R.id.ej2);
+       ej2=(Button)findViewById(R.id.ej2);
 
         ej2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this,Ej2.class);
+                Intent intent = new Intent(MainActivity.this,Ej2_1.class);
                 startActivity(intent);
 
             }
@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
         ej3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this,Ej3.class);
+                Intent intent = new Intent(MainActivity.this,Ej3_1.class);
                 startActivity(intent);
 
             }
         });
-
+ /*
         ej4=(Button)findViewById(R.id.ej4);
 
         ej4.setOnClickListener(new View.OnClickListener(){
