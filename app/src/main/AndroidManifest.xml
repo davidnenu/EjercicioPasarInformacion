@@ -21,7 +21,9 @@
         <activity android:name=".Ej2_1" />
         <activity android:name=".Ej2_2" />
         <activity android:name=".Ej3_1" />
-        <activity android:name=".Ej3_2"></activity>
+        <activity android:name=".Ej3_2" />
+        <activity android:name=".Ej4_1" />
+        <activity android:name=".Ej4_2"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ejercicio4_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce tus datos: "
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nombre" />
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:layout_below="@+id/introduce"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+    <EditText
+        android:id="@+id/editnombre"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellidos"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editapellidos"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editnombre"
+        android:layout_alignStart="@+id/editnombre" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editapellidos"
+        android:layout_marginTop="28dp"
+        android:text="Sexo: " />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Aficiones: " />
+
+    <CheckBox
+        android:id="@+id/Musica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="Musica" />
+
+    <CheckBox
+        android:id="@+id/Lectura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Musica"
+        android:layout_below="@+id/Musica"
+        android:text="Lectura" />
+
+    <CheckBox
+        android:id="@+id/Deportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Lectura"
+        android:layout_below="@+id/Lectura"
+        android:text="Deportes" />
+
+    <CheckBox
+        android:id="@+id/Viajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Deportes"
+        android:layout_below="@+id/Deportes"
+        android:text="Viajar" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Viajar"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="Enviar"
+        android:onClick="enviar"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/nombre"
+        >
+
+
+        <RadioButton
+            android:id="@+id/hombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:checked="true"
+            android:text="Hombre" />
+
+        <RadioButton
+            android:id="@+id/mujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Mujer" />
+
+    </RadioGroup>
+
+
+
+
+
+</RelativeLayout>
