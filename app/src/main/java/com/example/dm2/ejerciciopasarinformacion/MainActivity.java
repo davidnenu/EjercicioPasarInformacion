@@ -62,28 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-/*
-        ej5=(Button)findViewById(R.id.ej5);
 
-        ej5.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this,Ej5.class);
-                startActivity(intent);
-
-            }
-        });
-
-        ej6=(Button)findViewById(R.id.ej6);
-
-        ej6.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this,Ej6.class);
-                startActivity(intent);
-
-            }
-        });*/
 
     }
 

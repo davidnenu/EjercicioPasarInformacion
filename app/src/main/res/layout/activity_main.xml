@@ -20,13 +20,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EJ4"/>
-    <Button android:id="@+id/ej5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="EJ5"/>
-    <Button android:id="@+id/ej6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="EJ6"/>
 
 </LinearLayout>
