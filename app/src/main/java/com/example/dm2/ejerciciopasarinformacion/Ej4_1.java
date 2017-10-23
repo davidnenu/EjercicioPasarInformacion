@@ -34,7 +34,7 @@ public class Ej4_1 extends AppCompatActivity {
         c4=(CheckBox)findViewById(R.id.Viajar);
     }
     public void enviar(View v){
-        if(nombre.getText().toString().length()>0&&apellidos.getText().toString().length()>0&&(h.isChecked()||m.isChecked())&&(c1.isChecked()||c2.isChecked()||c3.isChecked()||c4.isChecked())) {
+        if(nombre.getText().toString().length()>0&&apellidos.getText().toString().length()>0&&(h.isChecked()||m.isChecked())) {
             Intent intent = new Intent(Ej4_1.this, Ej4_2.class);
             intent.putExtra("nombre", nombre.getText().toString());
             intent.putExtra("apellidos", apellidos.getText().toString());
@@ -54,6 +54,8 @@ public class Ej4_1 extends AppCompatActivity {
 
             if(s.length()>0)
                 intent.putExtra("aficiones",s);
+            else
+                intent.putExtra("aficiones","");
 
 
 
